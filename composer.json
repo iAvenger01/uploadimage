@@ -1,0 +1,26 @@
+{
+    "name": "i-avenger01/uploadimage",
+    "description": "Upload images to the content type folder.",
+    "homepage": "https://github.com/iAvenger01/uploadimage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kirill Danilevsky",
+            "email": "k.danilevsky@gmail.com"
+        },
+        {
+            "name": "Alexey Perevoshchikov",
+            "email": "netgear155@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0",
+        "spatie/laravel-glide": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dan\\UploadImage\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
